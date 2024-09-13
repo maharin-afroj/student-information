@@ -51,9 +51,9 @@ MessageBox.Show("Succesfully Updated");
 ## User Flow
 1. When the application is opened, existing records are displayed in the `DataGridView`.
 2. Users can:
-   - **Insert** new records by clicking the "Insert" button and submitting the form.
-   - **Delete** records by selecting a row and confirming deletion.
-   - **Update** user can update any data from data grid view.
+   - **Insert**: new records by clicking the "Insert" button and submitting the form.
+   - **Delete**: records by selecting a row and confirming deletion.
+   - **Update**: user can update any data from data grid view.
 
 ## Challenges and Considerations
 - **Error Handling**: Implement error handling for database connection failures or invalid inputs.
