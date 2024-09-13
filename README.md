@@ -33,6 +33,9 @@ This project demonstrates how to implement CRUD (Create, Read, Update, Delete) o
 - **Search Students**: Users can search for a student by `Student ID`, `Student Name`, or `Age` using the "Search" button, and the grid will update to show only the relevant records.
 
 -  **Schame Diagram:**
+
+![Screenshot 2024-09-13 190805](https://github.com/user-attachments/assets/142bb970-c62b-4b6e-b1b9-ca1855ecd717)
+
   
 
 ## Set Up SQL Server Database:
