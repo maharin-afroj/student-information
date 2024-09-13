@@ -24,13 +24,16 @@ This project demonstrates how to implement CRUD (Create, Read, Update, Delete) o
 
 - **Add New Students**: Users can input student details such as `Student ID`, `Student Name`, and `Age`. When the "Insert" button is clicked, the new student is added to the list and the database.
   
-- **View Student Information**: The application displays all student records in a grid format, showing the student's ID, name, and age.
+- **View/Search Student Information**: The application displays all student records in a grid format, showing the student's ID, name, and age.
 
 - **Update Student Information**: Users can select an existing student from the grid and update their details using the "Update" button. This will modify the selected student's information in the database.
 
 - **Delete Student Records**: Select a student from the grid and click the "Delete" button to remove their record from the system. A confirmation can be implemented to avoid accidental deletions.
 
 - **Search Students**: Users can search for a student by `Student ID`, `Student Name`, or `Age` using the "Search" button, and the grid will update to show only the relevant records.
+
+-  **Schame Diagram:**
+  
 
 ## Set Up SQL Server Database:
 Open SQL Server Management Studio (SSMS) and connect to your SQL Server instance.
@@ -161,6 +164,10 @@ private void Form1_Load(object sender, EventArgs e)
     LoadStudents();
 }
 ```
+## Screenshots
+Below is a screenshot of the application interface showing the CRUD operation functionality:
+![Screenshot 2024-09-13 162013](https://github.com/user-attachments/assets/d82d39da-eb02-42e7-9ee3-fe2273128de7)
+
 ### Event Handling
 - Implement event handlers for each button (e.g., `Create`, `Edit`, `Delete`).
 - When a button is clicked, the corresponding CRUD operation will be executed (e.g., creating a new record or deleting an existing one).
@@ -187,7 +194,5 @@ private void Form1_Load(object sender, EventArgs e)
 3. **Build the Project**: Open the project in Visual Studio and build the solution.
 4. **Run the Application**: Once built, run the application and manage records through the Windows Forms interface.
 
-## Screenshots
 
-Below is a screenshot of the application interface showing the CRUD operation functionality:
 
